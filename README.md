@@ -4,7 +4,7 @@ Presentaciçon en el II Simpósio Brasileiro de Infraestrutura de Dados Espaciai
 
 ## Referencias
 
-* OCDE, http://www.oecd.org/gov/digital-government/Recommendation-digital-government-strategies.pdf
+* OECD (2014), Recommendation of the Council on Digital Government Strategies, [http://www.oecd.org/gov/digital-government/Recommendation-digital-government-strategies.pdf]
 
 * CAF (2020), The GovTech Index 2020: Unlocking the Potential of GovTech Ecosystems in Latin America, Spain and
 Portugal, Development Bank of Latin America, Caracas. [https://scioteca.caf.com/handle/123456789/1580]
