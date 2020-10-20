@@ -9,3 +9,4 @@ Presentaciçon en el II Simpósio Brasileiro de Infraestrutura de Dados Espaciai
 * CAF (2020), The GovTech Index 2020: Unlocking the Potential of GovTech Ecosystems in Latin America, Spain and
 Portugal, Development Bank of Latin America, Caracas. [https://scioteca.caf.com/handle/123456789/1580]
 
+* ELISE Webinar: The role of Spatial Data Infrastructures for Digital Government Transformation [https://www.youtube.com/watch?v=J7OuhAZxZfc]
