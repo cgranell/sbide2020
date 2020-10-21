@@ -1,11 +1,12 @@
 ---
-title: "Las IDE son clave en la Transformación Digital <br>(de los gobiernos)"
-subtitle: "II Simpósio Brasileiro de Infraestrutura de Dados Espaciais <br><small>[SBIDE'20](https://inde.gov.br/simposio-12-anos/sbide-home.html)</small>"
-author: "[Carlos Granell](http://carlosgranell.eu/), [GEOTEC research group](http://geotec.uji.es/)"
-institute: "Universitat Jaume I, España"
+title: "Las IDE son clave en la Transformación Digital (de los gobiernos)"
+subtitle: "<small>II Simpósio Brasileiro de IDE - [SBIDE'20](https://inde.gov.br/simposio-12-anos/sbide-home.html)</small>"
+author: "[Carlos Granell](http://carlosgranell.eu/)" 
+institute: "<small>[GEOTEC research group](http://geotec.uji.es/) - Universitat Jaume I, España</small>"
 date: "23 Octubre 2020"
 output:
   xaringan::moon_reader:
+    #css: ["default", "cgc-xaringan-style.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -14,82 +15,164 @@ output:
       ratio: "16:9"
 ---
 
-layout: true
-
-background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
-background-position: left bottom
-background-size: 15%
-
-
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+devtools::install_github("hadley/emo")
+
+# library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 ```
+
+class: inverse, center, middle
+
+# EL DESAFíO
+
+--
+
+### [TRANSFORMACIÓN DIGITAL]() 
+
+---
+
+# .center[La digitalización NO es algo NUEVO]
+
+.center[<img src="figs/portada-digitalizacion.jpg" width="70%"/>]
+
+
+---
+
+# .center[Ni la Transformación Digital de los Gobiernos (OECD 2014)]
+
+.center[<img src="figs/image1-7.png" width="80%"/>]
+
+
+---
+
+.left-column[
+  ## Six dimensions
+]
+
+.right-column[
+.center[<img src="figs/sixdimensions.png" width="35%"/>]
+
+
+1. From digitalisation of existing processes to **digital by design** 
+
+1. From an information-centred governemnt to a **data-driven** public sector
+
+1. From goverment as a service provider to **government as a platform** for public value co-creation
+
+1. From access to information to **open by default**
+
+1. From a user-centred to a **user-driven** administration
+
+1. From reactive to **proactive** policymaking and service delivery
+]
+
+---
+
+.left-column[
+  ## Six dimensions
+  ## World status quo (2019)
+]
+
+.right-column[
+.center[<img src="figs/digitalgovernmentindex2019.png" width="58%"/>]
+]
+
+---
+
+.left-column[
+  ## Six dimensions
+  ## World status quo (2019)
+  ## Latin America status quo (2019)
+]
+
+.right-column[
+.center[<img src="figs/GovTechIndex-map.png" width="70%"/>]
+]
+
+---
+
+.left-column[
+  ## Six dimensions
+  ## World status quo (2019)
+  ## Latin America status quo (2019)
+]
+
+.right-column[
+.center[<img src="figs/GovTechIndex-index.png" width="70%"/>]
+]
+
+---
+
+.left-column[
+  ## Six dimensions
+  ## World status quo (2019)
+  ## Latin America status quo (2019)
+  ## Brazil status quo (Nov 2018)
+]
+
+.right-column[
+.center[<img src="figs/DigitalGovReview_Brazil-2018.png" width="70%"/>]
+]
+
+---
+
+.left-column[
+  ## Six dimensions
+  ## World status quo (2019)
+  ## Latin America status quo (2019)
+  ## Brazil status quo (Nov 2018)
+]
+
+.right-column[
+.center[<img src="figs/DigitalGovReview_Brazil-2018-2.png" width="70%"/>]
+]
 
 ---
 class: inverse, center, middle
 
-# EL DESAFIO
-
-### TRANSFORMACIÓN DIGITAL 
+# Y algo pasó... 
 
 ---
 
-# La digitalización NO es algo NUEVO
-
-![](figs/portada-digitalizacion.jpg)
-
----
-
-# La digitalización NO es algo NUEVO
-
-.center[La __digitalización__ de los gobiernos]
-
--- 
-.center[La __digitalización__ de las empresas]
-
--- 
-.center[La __digitalización__ de la educación]
-
---
-.center[La __digitalización__ de los datos]
-
---
-.center[La __digitalización__ de _PON LO QUE QUIERAS AQUÍ_]
-
-
---- 
-
-# ¿Qué mide la digitalización? Economia y Sociedad Digital
-
-### Conectividad: Cobertura 4G, 5G, banda ancha, etc.
-
-### Capital humano: Competencias digitales, especialistas en TIC, etc 
-
-### Uso de servicios de Internet: Banca, compras, video, musica, etc. 
-
-### __Servicios públicos digitales__: Usuarios de la administración electrónica, datos abiertos, servicios en línea, etc.  
-
---- 
-
-# De la Digitalización a la Transformacion Digital 
-
-![](figs/image1-7.png)
+.center[<img src="figs/digital-transformation-meme.png" width="70%"/>]
 
 
 ---
 
-![](figs/digital-transformation-meme.png)
+# .center[La Transformación Digital]
 
+.pull-left[
 
---- 
+### .center[Antes COVID]
 
-# La Transformación Digital 
+era una política a medio-largo plazo, centrada en la eficiencia, ahorro de costes, mejora de servicios públicos, etc. 
 
-.center[Antes COVID, es una política a medio-largo plazo, centrada en la eficiencia, ahorro de costes, mejora de servicios publcios]
+]
+
+.pull-right[
+
+### .center[Después COVID]
+
+es **LA CLAVE** para acelerar una recuperación (económica)
+
+]
+
+---
+class: inverse, center, middle
+
+# PERO
 
 --
 
-.center[Depues COVID, es __LA CLAVE__ para acelerar uan recuperación ]
+# el `r emo::ji("world")` ahora no es igual que hace unos meses
+
+---
+
+# Ahora no estamos igual que hace un año
+
+???
+Partimos de una situación peor, no solo económica sino social (mayou pobreza, vulnerabilidad). Hay que intentar que nadie se queda atras. 
 
 
 ---
@@ -97,18 +180,30 @@ class: inverse, center, middle
 
 # LA OPORTUNIDAD
 
-### Las IDE
+--
 
-
+### [IDE]()
 
 
 ---
 class: inverse, center, middle
 
-# ACCIONES 
+# La ACCIÓN 
 
-### Las IDE como _plataformas_ de la Transformación Digital
+--
 
+### [IDE como _plataformas_ de la Transformación Digital]()
+
+
+
+---
+
+class: right, middle
+
+
+<img class="circle" src="https://github.com/apreshill.png" width="150px"/>
+
+# Find me at...
 
 
 
