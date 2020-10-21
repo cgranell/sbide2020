@@ -6,7 +6,7 @@ institute: "<small>[GEOTEC research group](http://geotec.uji.es/) - Universitat 
 date: "23 Octubre 2020"
 output:
   xaringan::moon_reader:
-    #css: ["default", "cgc-xaringan-style.css"]
+    css: ["default", "cgc-xaringan-style.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -39,7 +39,7 @@ class: inverse, center, middle
 
 ---
 
-# .center[Ni la Transformación Digital de los Gobiernos (OECD 2014)]
+# .center[*e-Gov* `r emo::ji("east")` *Digital government*]
 
 .center[<img src="figs/image1-7.png" width="80%"/>]
 
@@ -47,7 +47,7 @@ class: inverse, center, middle
 ---
 
 .left-column[
-  ## Six dimensions
+### Seis Dimensiones (2014)
 ]
 
 .right-column[
@@ -70,8 +70,8 @@ class: inverse, center, middle
 ---
 
 .left-column[
-  ## Six dimensions
-  ## World status quo (2019)
+  ### Seis Dimensiones (2014)
+  ### Mundo (2019)
 ]
 
 .right-column[
@@ -81,9 +81,9 @@ class: inverse, center, middle
 ---
 
 .left-column[
-  ## Six dimensions
-  ## World status quo (2019)
-  ## Latin America status quo (2019)
+  ### Seis Dimensiones (2014)
+  ### Mundo (2019)
+  ### Am Latina (2019)
 ]
 
 .right-column[
@@ -93,9 +93,9 @@ class: inverse, center, middle
 ---
 
 .left-column[
-  ## Six dimensions
-  ## World status quo (2019)
-  ## Latin America status quo (2019)
+  ### Seis Dimensiones (2014)
+  ### Mundo (2019)
+  ### Am Latina (2019)
 ]
 
 .right-column[
@@ -105,10 +105,10 @@ class: inverse, center, middle
 ---
 
 .left-column[
-  ## Six dimensions
-  ## World status quo (2019)
-  ## Latin America status quo (2019)
-  ## Brazil status quo (Nov 2018)
+  ### Seis Dimensiones (2014)
+  ### Mundo (2019)
+  ### Am Latina (2019)
+  ### Brasil (Nov 2018)
 ]
 
 .right-column[
@@ -118,10 +118,10 @@ class: inverse, center, middle
 ---
 
 .left-column[
-  ## Six dimensions
-  ## World status quo (2019)
-  ## Latin America status quo (2019)
-  ## Brazil status quo (Nov 2018)
+  ### Seis Dimensiones (2014)
+  ### Mundo (2019)
+  ### Am Latina (2019)
+  ### Brasil (Nov 2018)
 ]
 
 .right-column[
@@ -146,34 +146,83 @@ class: inverse, center, middle
 
 ### .center[Antes COVID]
 
-era una política a medio-largo plazo, centrada en la eficiencia, ahorro de costes, mejora de servicios públicos, etc. 
+era una política a **medio-largo plazo**, centrada en la eficiencia, ahorro de costes, mejora de servicios públicos, infraestructura tecnológica, despliegue d redes comunicaciones, etc. 
 
 ]
 
 .pull-right[
 
-### .center[Después COVID]
+### .center[Durante/después COVID]
 
-es **LA CLAVE** para acelerar una recuperación (económica)
+es **LA CLAVE** para acelerar una recuperación económica
 
 ]
 
 ---
-class: inverse, center, middle
 
-# PERO
+.left[<img src="figs/theconversation01.PNG" height="150"/>]
+???
+Fuentes: 
 
 --
 
-# el `r emo::ji("world")` ahora no es igual que hace unos meses
+.center[<img src="figs/elpais01.PNG" height="200"/>]
+???
+Fuentes: 
+
+--
+
+.right[<img src="figs/theconversation02.PNG" height="130"/>]
+???
+Fuentes: 
 
 ---
 
-# Ahora no estamos igual que hace un año
+.pull-left[<img src="figs/economicoutlook-2020.PNG" width="70%"/>]
+
+.pull-right[.middle[<img src="figs/oportunidades.PNG"/>]]
 
 ???
-Partimos de una situación peor, no solo económica sino social (mayou pobreza, vulnerabilidad). Hay que intentar que nadie se queda atras. 
+Fuentes:
 
+---
+class: inverse, center, middle
+
+# PERO...
+
+---
+class: inverse, center, middle
+
+
+# el `r emo::ji("world")` ahora está PEOR que hace unos meses!
+
+???
+Partimos de una situación peor, no solo económica sino social (mayou pobreza, vulnerabilidad). Hay que intentar que nadie se quede atrás. 
+
+---
+
+.center[<img src="figs/elpais03.PNG"/>]
+
+.pull-left[<img src="figs/pib-2020-amlatina.png" width="80%"/>]
+
+--
+
+.pull-right[
+.pull-left[<img src="figs/prevalenciapobreza-2020-amlatina.PNG" width="120%"/>]
+.pull-right[<img src="figs/pobreza-2020-amlatina.PNG" width="80%"/>]
+]
+
+
+???
+Fuente: [El País, 29 Oct 2020](https://elpais.com/economia/2020-08-29/america-latina-vuelta-al-punto-de-partida.html)
+
+---
+class: middle, center
+
+<img src="figs/elpais04.PNG"/>
+
+???
+Fuente: [El País, 6 Ago 2020](https://elpais.com/elpais/2020/08/06/planeta_futuro/1596731545_633252.html) 
 
 ---
 class: inverse, center, middle
