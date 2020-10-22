@@ -17,9 +17,10 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-devtools::install_github("hadley/emo")
-
-# library(fontawesome) # from github: https://github.com/rstudio/fontawesome
+#devtools::install_github("hadley/emo")
+# devtools::install_github("rstudio/fontawesome")
+library(emo)
+library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 ```
 
 class: inverse, center, middle
@@ -67,6 +68,9 @@ class: inverse, center, middle
 1. From reactive to **proactive** policymaking and service delivery
 ]
 
+???
+Fuente: [The OECD Digital Government Policy Framework: Six dimensions of a Digital Government](https://doi.org/10.1787/f64fed2a-en)
+
 ---
 
 .left-column[
@@ -77,6 +81,9 @@ class: inverse, center, middle
 .right-column[
 .center[<img src="figs/digitalgovernmentindex2019.png" width="58%"/>]
 ]
+
+???
+Fuente: [Digital Government Index: 2019 results](https://doi.org/10.1787/4de9f5bb-en)
 
 ---
 
@@ -90,6 +97,9 @@ class: inverse, center, middle
 .center[<img src="figs/GovTechIndex-map.png" width="70%"/>]
 ]
 
+???
+Fuente: [The GovTech Index 2020: Unlocking the Potential of GovTech Ecosystems in Latin America, Spain and Portugal](https://scioteca.caf.com/handle/123456789/1580)
+
 ---
 
 .left-column[
@@ -101,6 +111,9 @@ class: inverse, center, middle
 .right-column[
 .center[<img src="figs/GovTechIndex-index.png" width="70%"/>]
 ]
+
+???
+Fuente: [The GovTech Index 2020: Unlocking the Potential of GovTech Ecosystems in Latin America, Spain and Portugal](https://scioteca.caf.com/handle/123456789/1580)
 
 ---
 
@@ -115,6 +128,9 @@ class: inverse, center, middle
 .center[<img src="figs/DigitalGovReview_Brazil-2018.png" width="70%"/>]
 ]
 
+???
+Fuente: [Digital Government Review of Brazil: Towards the Digital Transformation of the Public Sector, 2018](https://doi.org/10.1787/9789264307636-en)
+
 ---
 
 .left-column[
@@ -127,6 +143,9 @@ class: inverse, center, middle
 .right-column[
 .center[<img src="figs/DigitalGovReview_Brazil-2018-2.png" width="70%"/>]
 ]
+
+???
+Fuente: [Digital Government Review of Brazil: Towards the Digital Transformation of the Public Sector, 2018](https://doi.org/10.1787/9789264307636-en)
 
 ---
 class: inverse, center, middle
@@ -146,7 +165,7 @@ class: inverse, center, middle
 
 ### .center[Antes COVID]
 
-era una política a **medio-largo plazo**, centrada en la eficiencia, ahorro de costes, mejora de servicios públicos, infraestructura tecnológica, despliegue d redes comunicaciones, etc. 
+era una política a **medio-largo plazo**, centrada en la eficiencia, ahorro de costes, mejora de servicios públicos, infraestructura tecnológica, despliegue redes comunicaciones, etc. 
 
 ]
 
@@ -154,7 +173,7 @@ era una política a **medio-largo plazo**, centrada en la eficiencia, ahorro de 
 
 ### .center[Durante/después COVID]
 
-es **LA CLAVE** para acelerar una recuperación económica
+es **LA CLAVE a corto plazo** para acelerar una recuperación económica
 
 ]
 
@@ -162,19 +181,19 @@ es **LA CLAVE** para acelerar una recuperación económica
 
 .left[<img src="figs/theconversation01.PNG" height="150"/>]
 ???
-Fuentes: 
+Fuente: [The Conversation, 19 jun 2020](https://theconversation.com/la-digitalizacion-en-la-era-de-la-covid-19-irreversible-y-sin-panos-calientes-140757)
 
 --
 
 .center[<img src="figs/elpais01.PNG" height="200"/>]
 ???
-Fuentes: 
+Fuente: [El Pais, 22 ago 2020](https://elpais.com/economia/2020-08-22/digitalizacion-latinoamericana-reto-impostergable.html)
 
 --
 
 .right[<img src="figs/theconversation02.PNG" height="130"/>]
 ???
-Fuentes: 
+Fuente: [The Conversation, 6 oct 2020](https://theconversation.com/2020-el-ano-que-acelero-la-transformacion-digital-147246) 
 
 ---
 
@@ -183,7 +202,7 @@ Fuentes:
 .pull-right[.middle[<img src="figs/oportunidades.PNG"/>]]
 
 ???
-Fuentes:
+Fuentes: [Latin American Economic Outlook 2020: Digital Transformation for Building Back Better](https://doi.org/10.1787/e6e864fb-en) y [Las oportunidades de la digitalización en América Latina frente al COVID-19](https://repositorio.cepal.org/handle/11362/45360)
 
 ---
 class: inverse, center, middle
@@ -214,7 +233,7 @@ Partimos de una situación peor, no solo económica sino social (mayou pobreza, 
 
 
 ???
-Fuente: [El País, 29 Oct 2020](https://elpais.com/economia/2020-08-29/america-latina-vuelta-al-punto-de-partida.html)
+Fuente: [El País, 29 oct 2020](https://elpais.com/economia/2020-08-29/america-latina-vuelta-al-punto-de-partida.html)
 
 ---
 class: middle, center
@@ -222,7 +241,7 @@ class: middle, center
 <img src="figs/elpais04.PNG"/>
 
 ???
-Fuente: [El País, 6 Ago 2020](https://elpais.com/elpais/2020/08/06/planeta_futuro/1596731545_633252.html) 
+Fuente: [El País, 6 ago 2020](https://elpais.com/elpais/2020/08/06/planeta_futuro/1596731545_633252.html) 
 
 ---
 class: inverse, center, middle
@@ -231,7 +250,93 @@ class: inverse, center, middle
 
 --
 
-### [IDE]()
+### [INFRAESTRUCTURAS DE DATOS ESPACIALES]()
+
+
+---
+
+.center[<img src="figs/evolucion-rueda.png" width="60%"/>]
+
+### .center[Reflexión sobre el *futuro* de la IDE]
+
+--
+
+### .center[Reflexion sobre el *papel* de la IDE en la Transformación Digital]
+
+---
+
+# Digital Gov Review of Brazil (Nov 2018)
+
+.left-column[
+  ### *INDE* es parte de la Transformación Digital en Brasil (ver 2008)
+]
+
+.right-column[
+.center[<img src="figs/DigitalGovReview_Brazil-2018-2.png" width="70%"/>]
+]
+
+???
+Fuente: [Digital Government Review of Brazil: Towards the Digital Transformation of the Public Sector, 2018](https://doi.org/10.1787/9789264307636-en)
+
+---
+
+# El rol de las IDE (segun EU)
+
+.left-column[
+  ### 29 países
+]
+
+.right-column[
+.center[<img src="figs/elise1.png" width="70%"/>]
+]
+
+???
+Fuente: [The role of Spatial Data Infrastructures in the Digital Government Transformation of Public Administrations](https://op.europa.eu/s/omJu)
+
+---
+
+# El rol de las IDE (segun EC)
+
+.left-column[
+  ### 29 países
+  ### 17 indicadores
+]
+
+.right-column[
+.center[<img src="figs/elise2.png" width="80%"/>]
+]
+
+???
+Fuente: [The role of Spatial Data Infrastructures in the Digital Government Transformation of Public Administrations](https://op.europa.eu/s/omJu)
+
+---
+
+# El rol de las IDE (segun EU)
+
+.left-column[
+  ### 29 países
+  ### 17 indicadores
+  ### Resultados
+]
+
+.right-column[
+.center[<img src="figs/elise3.png" width="80%"/>]
+]
+
+???
+Fuente: [The role of Spatial Data Infrastructures in the Digital Government Transformation of Public Administrations](https://op.europa.eu/s/omJu)
+
+
+---
+
+# El rol de las IDE (Am Latina)
+
+.pull-left[<img src="figs/economicoutlook-2020.PNG" width="60%"/>]
+
+.pull-right[.middle[<img src="figs/oportunidades.PNG"/>]]
+
+???
+Fuentes: [Latin American Economic Outlook 2020: Digital Transformation for Building Back Better](https://doi.org/10.1787/e6e864fb-en) y [Las oportunidades de la digitalización en América Latina frente al COVID-19](https://repositorio.cepal.org/handle/11362/45360). En el primero, no se mencion IDE; en el segun hay unas pocas refencias sobre apps en la COVD.
 
 
 ---
@@ -241,18 +346,51 @@ class: inverse, center, middle
 
 --
 
-### [IDE como _plataformas_ de la Transformación Digital]()
-
+### [IDE y Transformación Digital]() `r emo::ji("love")`
 
 
 ---
+class: middle, center
+# `r emo::ji("family")` Capital Humano
 
+### educación, capacitación, curriculum educativo, habilidades digitales, ...
+
+---
+class: middle, center
+# `r emo::ji("police")` Marco Legislativo
+
+### regulación, legislacion, marco institucional, interoperabilidad, ...
+
+---
+class: middle, center
+# `r emo::ji("link")` Plataforma Digital
+
+### Plataforma Facilitadora y generativa de valor, interconexión gobierno-empresa-sociedad, sinergías tecnologias, etc...
+
+
+> Infraestructura: estructura que sirve de base de sustentación a otra.
+
+
+> Plataforma: entorno informático que utiliza sistemas compatibles entre sí
+
+---
+class: middle, center
+# `r emo::ji("talk")` Divulgación
+
+### ganar confianza de la ciudadanía, no dejar a nadie atrás, etc. 
+
+
+---
 class: right, middle
 
+### Find me at...
 
-<img class="circle" src="https://github.com/apreshill.png" width="150px"/>
+[`r fa(name = "github")` @cgranell](http://github.com/cgranell)  
+[`r fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
+[`r fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
 
-# Find me at...
+### Find sources at...
 
+[`r fa(name = "github")` github.com/cgranell/sbide2020](https://github.com/cgranell/sbide2020)  
 
 
