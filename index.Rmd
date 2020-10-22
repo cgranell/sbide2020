@@ -365,7 +365,7 @@ class: middle, center
 class: middle, center
 # `r emo::ji("link")` Plataforma Digital
 
-### Plataforma Facilitadora y generativa de valor, interconexión gobierno-empresa-sociedad, sinergías tecnologias, etc...
+### Plataforma facilitadora y generativa de valor, interconexión gobierno-empresa-sociedad, sinergías tecnologias, etc...
 
 
 > Infraestructura: estructura que sirve de base de sustentación a otra.
