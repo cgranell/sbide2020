@@ -25,7 +25,7 @@ library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 
 layout: true
   
-<div class="my-footer"><span>cgranell.github.io/sbide2020/index.html</span></div>
+<div class="my-footer"><span><a href="https://cgranell.github.io/sbide2020/index.html">cgranell.github.io/sbide2020</a></span></div>
 
 ---
 class: inverse, center, middle
@@ -390,16 +390,16 @@ class: right, middle
 
 ### Find me at...
 
-[`r fa(name = "github")` @cgranell](http://github.com/cgranell)  
-[`r fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
-[`r fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
+[`r fontawesome::fa(name = "github")` @cgranell](http://github.com/cgranell)  
+[`r fontawesome::fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
+[`r fontawesome::fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
 
 ### Find slides at...
 
-[`r fa(name = "github")` cgranell.github.io/sbide2020/index.html](https://cgranell.github.io/sbide2020/index.html)  
+[`r fontawesome::fa(name = "link")` cgranell.github.io/sbide2020](https://cgranell.github.io/sbide2020/index.html)  
 
 ### Find sources at...
 
-[`r fa(name = "github")` github.com/cgranell/sbide2020](https://github.com/cgranell/sbide2020)  
+[`r fontawesome::fa(name = "github")` github.com/cgranell/sbide2020](https://github.com/cgranell/sbide2020)  
 
 
