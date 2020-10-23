@@ -3,7 +3,7 @@ Presentación en el II Simpósio Brasileiro de Infraestrutura de Dados Espaciais
 
 ## 
 
-El fichero `index.Rmd` contiene el código de la presentación, desarrollada con el paquete [`xaringa`](https://cran.r-project.org/package=xaringan). También están disponibles la [versión html](https://cgranell.github.io/sbide2020/index.html) y [pdf]().   
+El fichero `index.Rmd` contiene el código de la presentación, desarrollada con el paquete [`xaringa`](https://cran.r-project.org/package=xaringan). También están disponibles la [versión html](https://cgranell.github.io/sbide2020/index.html) y [pdf](https://github.com/cgranell/sbide2020/blob/main/index.pdf).   
 
 ## Referencias
 
