@@ -23,6 +23,11 @@ library(emo)
 library(fontawesome) # from github: https://github.com/rstudio/fontawesome
 ```
 
+layout: true
+  
+<div class="my-footer"><span>cgranell.github.io/sbide2020/index.html</span></div>
+
+---
 class: inverse, center, middle
 
 # EL DESAFíO
@@ -388,6 +393,10 @@ class: right, middle
 [`r fa(name = "github")` @cgranell](http://github.com/cgranell)  
 [`r fa(name = "link")` carlosgranell.eu](https://carlosgranell.eu)  
 [`r fa(name = "paper-plane")` carlos.granell@uji.es](mailto:carlos.granell@uji.es)
+
+### Find slides at...
+
+[`r fa(name = "github")` cgranell.github.io/sbide2020/index.html](https://cgranell.github.io/sbide2020/index.html)  
 
 ### Find sources at...
 

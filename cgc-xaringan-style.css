@@ -5,3 +5,22 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 
 body { font-family: 'Open Sans' }
+
+/* footer */
+
+div.my-footer {
+    background-color: #1a1917;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 16px;
+    width: 100%;
+}
+
+div.my-footer span {
+    font-size: 9pt;
+    color: #F7F8FA;
+    position: absolute;
+    left: 15px;
+    bottom: 2px;
+}
