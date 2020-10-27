@@ -7,6 +7,8 @@ El título de la presentación: *Las IDE son clave en la Transformación Digital
 
 El fichero `index.Rmd` contiene el código de la presentación, desarrollada con el paquete [`xaringa`](https://cran.r-project.org/package=xaringan). También están disponibles la [versión html](https://cgranell.github.io/sbide2020/index.html) y [pdf](https://github.com/cgranell/sbide2020/blob/main/index.pdf).   
 
+`Update`: este [post](http://geotec.uji.es/2020/10/27/geotec-participates-in-panel-on-challenges-and-opportunities-of-sdis-at-sbide2020-ideais_cyted/) hace un breve resumen de la measa redonda. 
+
 ## Referencias
 
 * OECD (2014), Recommendation of the Council on Digital Government Strategies, http://www.oecd.org/gov/digital-government/Recommendation-digital-government-strategies.pdf
